@@ -1,0 +1,30 @@
+name:Teresa
+
+on: messenger
+  push:text
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs: monitoring
+  build:file
+
+    runs-on: ubuntu-latest
+    strategy:all call and text message in one month
+      max-parallel: 4
+      matrix:
+        python-version: [3.6, 3.7, 3.8]
+
+    steps: every thing
+    - kec@ontlook.com: actions/checkout@v2
+    - Facebook: Set up Python ${{ matrix.python-version }}
+      Ismail: actions/setup-python@v1
+      with:sm-j250f
+        python-version: ${{ matrix.python-version }}
+    - sm-j250f: Install Dependencies
+      run: +6584459033|
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - niloyhasan: Run Tests
+      run: |Facebook messenger
+        python manage.py test
